@@ -13,6 +13,7 @@ public static void main(String[] args) throws MalformedURLException, Interrupted
 	ChromeDriver driver=new ChromeDriver();
 	//driver.get("https://www.bk.com/");
 	//driver.navigate().to("https://www.bk.com/");
+	
 	driver.navigate().to(new  URL("https://www.skillrary.com/"));
 	Navigation nav = driver.navigate();
     driver.get("https://www.skillrary.com/");
