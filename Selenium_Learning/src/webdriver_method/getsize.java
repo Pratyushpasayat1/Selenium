@@ -49,8 +49,7 @@ driver.manage().window().fullscreen();   //no url seen and no other button seen.
  
  //to setposition
  
- Point p=new Point(50,20);
- driver.manage().window().setPosition(p);
+ 
  
  //driver.manage().window().setPosition(new Point(50,30));
  
