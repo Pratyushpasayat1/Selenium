@@ -22,7 +22,7 @@ public class dream11 {
 		WebElement iframe = driver.findElement(By.xpath("//iframe[@title='Iframe Example']"));
 		driver.switchTo().frame(iframe);
 		driver.findElement(By.id("regEmail")).sendKeys("98568599");
-		Thread.sleep(3000);
-		driver.quit();
+		driver.switchTo().parentFrame();
+		driver.findElement(By.linkText("About Us")).click();
 	}
 }

@@ -3,6 +3,7 @@ package takescreenshotofentirewebpage;
 import java.io.File;
 import java.io.IOException;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -15,9 +16,11 @@ public class screenshotofyoutube {
 		driver.manage().window().maximize();
 		driver.get("https://www.youtube.com/");
 		Thread.sleep(4000);
-		TakesScreenshot ts = (TakesScreenshot) driver;
+
+		TakesScreenshot ts=(TakesScreenshot)driver;
 		File temp = ts.getScreenshotAs(OutputType.FILE);
-		File src = new File("./errorshorts/youtube.jpeg");
-		FileHandler.copy(temp, src);
+		File dest = new File("./errorshorts/youtube1.png");
+		FileHandler.copy(temp, dest);
+		driver.quit();
 	}
 }
