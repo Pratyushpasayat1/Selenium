@@ -19,7 +19,7 @@ public class screenshotofyoutube {
 
 		TakesScreenshot ts=(TakesScreenshot)driver;
 		File temp = ts.getScreenshotAs(OutputType.FILE);
-		File dest = new File("./errorshorts/youtube1.png");
+		File dest = new File("./errorshorts/youtube2.png");
 		FileHandler.copy(temp, dest);
 		driver.quit();
 	}
