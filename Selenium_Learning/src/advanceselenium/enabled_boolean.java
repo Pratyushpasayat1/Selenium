@@ -5,9 +5,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class tolearnTestng {
-
-	@Test( invocationCount = 2,threadPoolSize = 2)
+public class enabled_boolean {
+	@Test(enabled = true)
 	public void cricbuzz() {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.cricbuzz.com/");
@@ -15,7 +14,7 @@ public class tolearnTestng {
 		driver.quit();
 	}
 
-	@Test(invocationCount = 3,threadPoolSize = 3)
+	@Test(enabled = false)
 	public void bascinrubben() {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://baskinrobbinsindia.com/");
@@ -23,7 +22,7 @@ public class tolearnTestng {
 		driver.quit();
 	}
 
-	@Test(invocationCount = 1,threadPoolSize =1 )
+	@Test(enabled = true)
 	public void amazon() {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.amazon.in/");

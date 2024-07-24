@@ -2,71 +2,71 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[cricbuzz got tested.]]>
-    </line>
-    <line>
-      <![CDATA[cricbuzz got tested.]]>
+      <![CDATA[amazon got tested.]]>
     </line>
     <line>
       <![CDATA[bascinrobben tested succesfully.]]>
     </line>
     <line>
-      <![CDATA[amazon got tested.]]>
+      <![CDATA[bascinrobben tested succesfully.]]>
     </line>
     <line>
-      <![CDATA[amazon got tested.]]>
+      <![CDATA[bascinrobben tested succesfully.]]>
     </line>
     <line>
-      <![CDATA[amazon got tested.]]>
+      <![CDATA[cricbuzz got tested.]]>
+    </line>
+    <line>
+      <![CDATA[cricbuzz got tested.]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-05-11T10:15:12 IST" name="Default suite" finished-at="2024-05-11T10:16:06 IST" duration-ms="54091">
+  <suite started-at="2024-06-10T13:08:02 IST" name="Default suite" finished-at="2024-06-10T13:08:26 IST" duration-ms="23602">
     <groups>
     </groups>
-    <test started-at="2024-05-11T10:15:12 IST" name="Default test" finished-at="2024-05-11T10:16:06 IST" duration-ms="54091">
+    <test started-at="2024-06-10T13:08:02 IST" name="Default test" finished-at="2024-06-10T13:08:26 IST" duration-ms="23602">
       <class name="advanceselenium.tolearnTestng">
-        <test-method signature="cricbuzz()[pri:1, instance:advanceselenium.tolearnTestng@6580cfdd]" started-at="2024-05-11T10:15:12 IST" name="cricbuzz" finished-at="2024-05-11T10:15:22 IST" duration-ms="9292" status="PASS">
+        <test-method signature="amazon()[pri:0, instance:advanceselenium.tolearnTestng@6580cfdd]" started-at="2024-06-10T13:08:02 IST" name="amazon" finished-at="2024-06-10T13:08:11 IST" duration-ms="9101" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[cricbuzz got tested.]]>
+              <![CDATA[amazon got tested.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- cricbuzz -->
-        <test-method signature="cricbuzz()[pri:1, instance:advanceselenium.tolearnTestng@6580cfdd]" started-at="2024-05-11T10:15:22 IST" name="cricbuzz" finished-at="2024-05-11T10:15:49 IST" duration-ms="27911" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[cricbuzz got tested.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- cricbuzz -->
-        <test-method signature="bascinrubben()[pri:2, instance:advanceselenium.tolearnTestng@6580cfdd]" started-at="2024-05-11T10:15:49 IST" name="bascinrubben" finished-at="2024-05-11T10:15:56 IST" duration-ms="6219" status="PASS">
+        </test-method> <!-- amazon -->
+        <test-method signature="bascinrubben()[pri:0, instance:advanceselenium.tolearnTestng@6580cfdd]" started-at="2024-06-10T13:08:11 IST" name="bascinrubben" finished-at="2024-06-10T13:08:19 IST" duration-ms="8021" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[bascinrobben tested succesfully.]]>
             </line>
           </reporter-output>
         </test-method> <!-- bascinrubben -->
-        <test-method signature="amazon()[pri:3, instance:advanceselenium.tolearnTestng@6580cfdd]" started-at="2024-05-11T10:15:56 IST" name="amazon" finished-at="2024-05-11T10:15:59 IST" duration-ms="3736" status="PASS">
+        <test-method signature="bascinrubben()[pri:0, instance:advanceselenium.tolearnTestng@6580cfdd]" started-at="2024-06-10T13:08:11 IST" name="bascinrubben" finished-at="2024-06-10T13:08:18 IST" duration-ms="7137" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[amazon got tested.]]>
+              <![CDATA[bascinrobben tested succesfully.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- amazon -->
-        <test-method signature="amazon()[pri:3, instance:advanceselenium.tolearnTestng@6580cfdd]" started-at="2024-05-11T10:15:59 IST" name="amazon" finished-at="2024-05-11T10:16:03 IST" duration-ms="3235" status="PASS">
+        </test-method> <!-- bascinrubben -->
+        <test-method signature="bascinrubben()[pri:0, instance:advanceselenium.tolearnTestng@6580cfdd]" started-at="2024-06-10T13:08:11 IST" name="bascinrubben" finished-at="2024-06-10T13:08:19 IST" duration-ms="7961" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[amazon got tested.]]>
+              <![CDATA[bascinrobben tested succesfully.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- amazon -->
-        <test-method signature="amazon()[pri:3, instance:advanceselenium.tolearnTestng@6580cfdd]" started-at="2024-05-11T10:16:03 IST" name="amazon" finished-at="2024-05-11T10:16:06 IST" duration-ms="3653" status="PASS">
+        </test-method> <!-- bascinrubben -->
+        <test-method signature="cricbuzz()[pri:0, instance:advanceselenium.tolearnTestng@6580cfdd]" started-at="2024-06-10T13:08:19 IST" name="cricbuzz" finished-at="2024-06-10T13:08:26 IST" duration-ms="6430" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[amazon got tested.]]>
+              <![CDATA[cricbuzz got tested.]]>
             </line>
           </reporter-output>
-        </test-method> <!-- amazon -->
+        </test-method> <!-- cricbuzz -->
+        <test-method signature="cricbuzz()[pri:0, instance:advanceselenium.tolearnTestng@6580cfdd]" started-at="2024-06-10T13:08:19 IST" name="cricbuzz" finished-at="2024-06-10T13:08:25 IST" duration-ms="6174" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[cricbuzz got tested.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cricbuzz -->
       </class> <!-- advanceselenium.tolearnTestng -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
